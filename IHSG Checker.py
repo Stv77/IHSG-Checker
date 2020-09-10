@@ -61,8 +61,7 @@ while True:
                 time.sleep(3)
                 driver.get('https://get back to the first address openned')
                 time.sleep(5)
-            elif base == 5:
-                pass
+
         #checking every 5 minutes
         print(jm)
         time.sleep(300)
