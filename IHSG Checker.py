@@ -27,7 +27,7 @@ while True:
     try:
         wkt = driver.find_element_by_xpath('xpath_of_time')
         wkt_txt = wkt.text
-        jm = wkt_txt[6:11]
+        jm = wkt_txt[6:12]
 
         p = driver.find_element_by_xpath('xpath of price')
         p_txt = p.text
