@@ -21,7 +21,7 @@ time.sleep(5)
 
 wkt = driver.find_element_by_xpath('xpath_of_time')
 wkt_txt = wkt.text
-jm = wkt_txt[6:11]
+jm = wkt_txt[6:12]
 
 while True:
     try:
